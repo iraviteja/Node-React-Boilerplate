@@ -4,7 +4,8 @@
   "description": "Simple boilerplate in node-react with redux, materialUi and saas.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "server": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/iraviteja/Node-React-Boilerplate/issues"
   },
-  "homepage": "https://github.com/iraviteja/Node-React-Boilerplate#readme"
+  "homepage": "https://github.com/iraviteja/Node-React-Boilerplate#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
